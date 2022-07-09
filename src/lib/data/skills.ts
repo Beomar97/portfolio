@@ -1,6 +1,6 @@
 import type { Skill } from '$lib/models/skill';
 
-let skills: Skill[] = [
+const skills: Skill[] = [
 	{
 		category: 'Frontend',
 		text: 'Svelte',
@@ -27,7 +27,7 @@ let skills: Skill[] = [
 		text: 'Java',
 		textColor: 'text-yellow-700',
 		icon: 'logos:java',
-		description: 'Primarily used in business projects with SpringBoot.'
+		description: 'Primarily used in business projects with Spring Boot.'
 	},
 	{
 		category: 'Backend',
@@ -91,6 +91,20 @@ let skills: Skill[] = [
 		textColor: 'text-black',
 		icon: 'logos:javascript',
 		description: 'Used within UI Frameworks.'
+	},
+	{
+		category: 'Backend',
+		text: 'Node.js',
+		textColor: 'text-lime-500',
+		icon: 'fa-brands:node-js',
+		description: 'Used as the Backend technology for simple personal Fullstack projects.'
+	},
+	{
+		category: 'Mobile',
+		text: 'Swift',
+		textColor: 'text-orange-500',
+		icon: 'logos:swift',
+		description: 'Used in small-scale school projects.'
 	}
 ];
 

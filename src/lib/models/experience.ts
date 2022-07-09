@@ -1,6 +1,6 @@
 import type { Employment } from './employment';
 
-export type JobExperience = {
+export type Experience = {
 	title: string;
 	employments: Employment[];
 };

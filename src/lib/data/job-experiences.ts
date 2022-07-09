@@ -1,6 +1,6 @@
-import type { JobExperience } from '$lib/models/job-experience';
+import type { Experience } from '$lib/models/experience';
 
-let jobExperiences: JobExperience[] = [
+const jobExperiences: Experience[] = [
 	{
 		title: 'Professional Software Engineer',
 		employments: [{ companyName: 'Zühlke Group', startDate: 'Aug 2022', endDate: 'present' }]

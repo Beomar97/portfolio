@@ -1,7 +1,5 @@
 <script lang="ts">
 	import signature from '$lib/assets/signature.png';
-	import Career from './components/Career.svelte';
-	import { jobExperiences } from './data/job-experiences';
 </script>
 
 <div id="about" class="my-24 p-8">
@@ -24,7 +22,10 @@
 			</p>
 		</div>
 		<div class="my-8 max-w-2xl">
-			<img src="https://live.staticflickr.com/65535/51062966523_f86074e5d9_k.jpg" alt="Burger" />
+			<img
+				src="https://live.staticflickr.com/65535/51065373466_3166f82c5e_c.jpg"
+				alt="Me at Thorang-La Pass"
+			/>
 		</div>
 	</div>
 </div>

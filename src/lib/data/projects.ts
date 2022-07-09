@@ -4,12 +4,13 @@ import studentRun from '$lib/assets/project-image-studentrun.png';
 import raceTrack from '$lib/assets/project-image-racetrack.jpeg';
 import issueTracker from '$lib/assets/project-image-issue-tracker.png';
 
-let projects: Project[] = [
+const projects: Project[] = [
 	{
 		title: 'Path Planning',
-		category: 'Python',
+		date: '2022/06',
 		image: pathPlanning,
-		description: 'Path Planning package for the Autonomous System of Zurich UAS Racing.',
+		description:
+			'Path Planning package for the Autonomous System of Zurich UAS Racing. The implemented path planning algorithms manoeuvre the vehicle inside the track marked by cones.',
 		badges: ['path-planning', 'python3', 'ros2-foxy'],
 		links: [
 			{
@@ -22,7 +23,7 @@ let projects: Project[] = [
 	},
 	{
 		title: 'StudentRun',
-		category: 'JavaScript',
+		date: '2021/05',
 		image: studentRun,
 		description:
 			'StudentRun is a competitive multiplayer game. StudentRun enables you to play versus online opponents with the goal to reach the finish line as quickly as possible.',
@@ -48,7 +49,7 @@ let projects: Project[] = [
 	},
 	{
 		title: 'RaceTrack',
-		category: 'Java',
+		date: '2020/05',
 		image: raceTrack,
 		description:
 			"RaceTrack, originally a paper and pencil game, that simulates a car race, played by two players. The game is played on a squared sheet of paper, with a pencil line tracking each car's movement.",
@@ -64,9 +65,10 @@ let projects: Project[] = [
 	},
 	{
 		title: 'Issue Tracker',
-		category: 'JavaScript',
+		date: '2019/12',
 		image: issueTracker,
-		description: 'Simple Issue Tracker implemented with Riot v3.',
+		description:
+			'Simple Issue Tracker implemented with Riot v3. Created issues are assigned to a project. Projects can be created and deleted, and new issues can be created, edited and deleted for a project.',
 		badges: ['javascript', 'axios', 'riot'],
 		links: [
 			{

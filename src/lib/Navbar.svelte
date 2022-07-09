@@ -3,7 +3,7 @@
 	import WiSolarEclipse from 'svelte-icons/wi/WiSolarEclipse.svelte';
 	import WiLunarEclipse from 'svelte-icons/wi/WiLunarEclipse.svelte';
 
-	export let theme: string = '';
+	export let theme = '';
 
 	function toggleTheme() {
 		if (document.documentElement.getAttribute('data-theme') !== 'dark') {
