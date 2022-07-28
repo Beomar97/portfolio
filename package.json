@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@splidejs/svelte-splide": "^0.2.5",
 		"daisyui": "^2.18.1",
 		"svelte-icons": "^2.1.0"
 	}

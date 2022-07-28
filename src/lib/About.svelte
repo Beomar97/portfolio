@@ -1,5 +1,7 @@
 <script lang="ts">
 	import signature from '$lib/assets/signature.png';
+	import { Splide, SplideSlide, SplideTrack } from '@splidejs/svelte-splide';
+	import '@splidejs/svelte-splide/css';
 </script>
 
 <div id="about" class="my-24 p-8">
@@ -22,10 +24,46 @@
 			</p>
 		</div>
 		<div class="my-8 max-w-2xl">
-			<img
-				src="https://live.staticflickr.com/65535/51065373466_3166f82c5e_c.jpg"
-				alt="Me at Thorang-La Pass"
-			/>
+			<Splide
+				hasTrack={false}
+				aria-label="My Favorite Images"
+				options={{
+					type: 'loop',
+					autoplay: true
+				}}
+			>
+				<SplideTrack>
+					<SplideSlide>
+						<img
+							src="https://live.staticflickr.com/65535/51065373466_3166f82c5e_c.jpg"
+							alt="Me at Thorang-La Pass"
+						/>
+					</SplideSlide>
+					<SplideSlide>
+						<img
+							src="https://live.staticflickr.com/65535/51051498312_74ec76d3f7_c.jpg"
+							alt="Me at Matterhorn, Zermatt"
+						/>
+					</SplideSlide>
+					<SplideSlide>
+						<img
+							src="https://live.staticflickr.com/65535/51062966523_4ab14e2ddc_c.jpg"
+							alt="Me on the Annapurna Circuit, Nepal"
+						/>
+					</SplideSlide>
+
+					<SplideSlide>
+						<img
+							src="https://live.staticflickr.com/65535/51051498582_eafe5dcf49_c.jpg"
+							alt="Me at Kleine Scheidegg"
+						/>
+					</SplideSlide>
+				</SplideTrack>
+
+				<div class="splide__progress">
+					<div class="splide__progress__bar" />
+				</div>
+			</Splide>
 		</div>
 	</div>
 </div>
