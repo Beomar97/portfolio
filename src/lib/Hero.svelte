@@ -9,7 +9,7 @@
 <div
 	id="home"
 	class="hero min-h-[95vh] w-full"
-	style="background-image: url(https://live.staticflickr.com/65535/51050689088_c248c92f75_o.jpg);"
+	style="background-image: url(https://live.staticflickr.com/65535/51050689088_c248c92f75_h.jpg);"
 >
 	<div class="hero-overlay bg-opacity-60" />
 	<div class="hero-content text-center text-neutral-content">

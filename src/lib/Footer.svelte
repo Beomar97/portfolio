@@ -13,9 +13,7 @@
 		<img class="w-12" alt="Personal Icon" src={icon} />
 		<p>Marco Forster<br />Copyright © 2022 - All right reserved</p>
 		<p class="flex items-center">
-			Created with <Icon class="ml-1 mr-1" icon="logos:svelte-icon" /> &
-			<span class="ml-1 mr-1 rounded bg-white"><Icon class="" icon="logos:svelte-kit" /></span> by Marco
-			Forster
+			Created with <Icon class="ml-1 mr-1" icon="logos:svelte-icon" /> by Marco Forster
 		</p>
 	</div>
 	<div>
